@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Botones</string>
+    <string name="numero">Numero</string>
+    <string name="incrementar">Incrementar</string>
+    <string name="decrementar">Decrementar</string>
+    <string name="tbOFF">Apagado</string>
+    <string name="tbON">Encendido</string>
+</resources>

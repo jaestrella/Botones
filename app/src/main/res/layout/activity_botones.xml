@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mainLayout"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.iesvirgendelcarmen.dam.botones.Botones">
+
+    <TextView
+        android:id="@+id/numero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/numero"
+        android:textSize="40sp"/>
+
+    <Switch
+        android:id="@+id/btnSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOff="@string/tbOFF"
+        android:textOn="@string/tbON"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/btn_star"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/inc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/incrementar"/>
+
+        <Button
+            android:id="@+id/dec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/decrementar"/>
+
+        <ToggleButton
+            android:id="@+id/tBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOff="@string/tbOFF"
+            android:textOn="@string/tbON"/>
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
